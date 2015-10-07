@@ -65,7 +65,7 @@ assert_equal ["Florida", "Music", "Weather"], categories.sort
 # Write a conditional that adds "Family" to the category list if it includes both Animals, and Shopping
 categories << "Animals"
 
-if categpries.indlude 'shopping'
+if categpries.include "shopping"
   categories << "Family"
 end
 

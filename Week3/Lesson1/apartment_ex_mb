@@ -1,0 +1,54 @@
+#Apartment Exampe for Classes and 
+#attr_accessor helps you make methods
+class Apartment
+	attr_accessor :name, :rent, :sqft, :num_bedrooms, :num_bath, :renters
+
+def initialize(name, rent, sqft, num_bedrooms, num_bath, renters)
+	@name= name
+	@rent= rent
+	@sqft= sqft
+	@num_bedrooms= num_bedrooms
+	@num_bath= num_bath
+	@renters= renters
+ end
+
+ def is_occupied?
+ 	@renters.any?
+ end
+#calling the any method on array. will return t or f. any replace if else statements
+
+ def to_s
+ 	"#{@name} has #{sqft} and #{@renters.count} renters"
+ end
+end	
+
+my_apartment = Apartment.new("The Thedore", 800,1700, 3,2, [])# dont have to define all properties all at once, added them in line below. BUT put nil there as a place holder. nil is nul
+#my_apartment.renters=[]
+
+if my_apartment.is_occupied?
+	puts "people live here"
+else
+	puts "this apartment is for rent, can you afford $#{my_apartment.rent} a month?"
+end	
+
+#this is what would happen if you did have attri_accessor
+# def name
+# 	@name
+# end
+
+# def name=(str)
+# 	@name=str=end
+# end
+
+#  def rent 
+#  	@rent
+#  end
+#  # this gets the value of rent ^
+#  def rent=(number) 
+#    	@rent=number
+# #this sets the value of rent ^
+# end 
+# # would have to do this for every attribute in the class
+
+# Apartment1= Apartment.new
+# Apartment1.rent= 900

@@ -48,8 +48,23 @@ forecast = [
 
 
 
+<<<<<<< HEAD
 forecast.each do |forecast|
   forecast.each do|key, value|
   puts "#{key} is #{value}"
 end 
 end
+=======
+puts forecast[-1][:date] #=> 'Friday'
+
+
+
+
+# forecast.each {|weather| puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}\nMoon phase: #{weather[:moon_phase]}" }
+
+# forecast.each do |weather|
+#   puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}"
+#   puts "Moon phase: #{weather[:moon_phase]}"
+#   puts "========================="
+# end
+>>>>>>> e70a97ef2d8c05aa11f746219a9c56bf8a33295d
