@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # How to create objects and the benefits of them
 # # ==============================================
 # # Let's focus on how to create new objects and why.
@@ -5,6 +6,15 @@
 # # Why use Objects?
 # # ----------------
 # # These are 3 hashes that have the same fields and share a similar behavior
+=======
+# How to create objects and the benefits of them
+# ==============================================
+# Let's focus on how to create new objects and why.
+#
+# Why use Objects?
+# ----------------
+# These are 3 hashes that have the same fields and share a similar behavior
+>>>>>>> 481521fde066e74822b9af9081b575ef96939b3c
 #  jimmy = {}
 #  jimmy[:name] = "Jimmy Mazzy"
 #  jimmy[:major] = "Math"
@@ -150,6 +160,7 @@
 class Student
   attr_accessor :name, :major, :course, :grade
 
+<<<<<<< HEAD
 def initialize(name, major, course, grade)
 	@name=name 
 	@major= major
@@ -176,6 +187,35 @@ jimmy = Student.new("Jimmy Mazzy", "Math", "Math", "A")
 pepe = Student.new("Pepe Phaenagrotis", "Music", "Math", "C")
 edward = Student.new("Edward Ellis", "Math", "Math", "C")
 
+=======
+  def initialize(name, major, course, grade)
+    @name = name
+    @major = major
+    @course = course
+    @grade = grade
+  end
+
+  def to_s
+    "#{@name} is a #{@major} major in #{@course} class with a grade of #{@grade}. They have #{self.grade_status}."
+  end
+  
+  def grade_status
+    if @grade == "F"
+      "failed"
+    elsif ["D", "E"].include?(@grade) && @major == @course
+      "failed"
+    else
+      "passed"
+    end
+  end
+
+end
+
+jimmy = Student.new("Jimmy Mazzy", "Math", "Math", "A")
+pepe = Student.new("Pepe Phaenagrotis", "Music", "Math", "C")
+edward = Student.new("Edward Ellis", "Math", "Math", "C")
+
+>>>>>>> 481521fde066e74822b9af9081b575ef96939b3c
 puts jimmy
 puts pepe
 puts edward

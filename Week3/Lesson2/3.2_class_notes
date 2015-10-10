@@ -1,0 +1,32 @@
+
+
+# Scope
+
+# Methods scope-
+# 	you can have two methods called "fly"but be in different scopes 
+
+# some_variable=1
+
+# def add_stuff #(some_variable)- without this, would not get 2, outside of scope
+# 	some_variable *2
+# end
+
+#+++++++++++++++++++++++++++++++
+#instance methods vs class method
+
+# class SecritNumber
+# 	def self.generate 
+# 		rand(10)+1 
+# 	end
+# end 
+
+# number= SecritNumber.generate
+
+#method name is generate
+
+Sharing Behavior 
+	inheritance- the child of another class. has properties that it inherits from the parent class
+	Mixins- a set of methods that you can use inside of fdifferent classes. held inside of modules. modules look slike classes but that ar...
+	Keeps 
+		used in the cases where you dont want to use inheritance
+

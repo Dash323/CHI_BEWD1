@@ -87,7 +87,7 @@ puts "What would you like to do next, (v)iew all apartments? (q)uit?"
 response = gets.strip
 
 if response == 'v'
-  building.view_
+  building.view_apartments
 else
   puts "Thanks for using Ruby Building Manager"
 end
