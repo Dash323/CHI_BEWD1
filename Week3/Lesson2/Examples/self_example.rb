@@ -1,5 +1,5 @@
 class NewsPaper
-attr_accessor :stories
+  attr_accessor :stories
 
   def initialize
     @stories = []
@@ -15,6 +15,7 @@ attr_accessor :stories
   end
 end
 
+<<<<<<< HEAD
 
 story = NewsPaper.generate_random_story #=> "This random event happened on day 20 of this month." 
 
@@ -33,5 +34,29 @@ paper2.stories.each do |story|
 end 
 
 puts "\n+++++++++++++++++++++++++++++++++++++\n"
+=======
+#story = NewsPaper.generate_random_story #=> "This random event happened on day 20 of this month." 
 
-p paper.stories #=> ["This random event happened on day 20 of this month."]
+paper = NewsPaper.new 
+5.times do
+  rando_story = NewsPaper.generate_random_story
+  paper.add_story(rando_story) 
+end
+
+paper2 = NewsPaper.new
+5.times do
+  paper2.add_story(NewsPaper.generate_random_story)
+end
+
+paper.stories.each do |story|
+  puts story
+end
+puts "\n========================\n"
+paper2.stories.each do |story|
+  puts story
+end
+>>>>>>> c4c394ebb4822949e1ba52ff9d3b4821068740fc
+
+# p paper.stories #=> ["This random event happened on day 20 of this month."]
+# puts "================="
+# p paper2.stories
