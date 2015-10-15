@@ -41,7 +41,7 @@
 # Tips: Copy paste your code from homework 1 where necessary.
 
 $:.unshift (File.dirname(__FILE__))
-require 'lib/game'
+require 'lib/mb_game'
 
 # put code here print a welcome message for your user
 def Welcome
@@ -49,7 +49,7 @@ def Welcome
 end
 
 # put code here ask the user for their name, and save it
-def get_player_name
+def get_person_name
 	puts "what is your name?"
 	name=gets.strip
 end
