@@ -1,5 +1,5 @@
-require 'lib/mb_person'
-require 'lib/mb_secret_number'
+require 'mb_person'
+require 'mb_secret_number'
 
 # this class will be complex
 # we need to write logic to initialize a new game, and run the game loop

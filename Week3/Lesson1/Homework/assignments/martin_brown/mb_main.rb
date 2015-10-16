@@ -41,7 +41,8 @@
 # Tips: Copy paste your code from homework 1 where necessary.
 
 $:.unshift (File.dirname(__FILE__))
-require.relative 'lib/mb_game'
+#require 'lib/mb_game'
+require 'mb_game'
 
 # put code here print a welcome message for your user
 def Welcome
