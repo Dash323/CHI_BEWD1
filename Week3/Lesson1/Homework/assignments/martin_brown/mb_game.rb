@@ -9,7 +9,7 @@ require 'mb_secret_number'
 class Game
 	attr_accessor :player_name, :secret_number, :remaining_guesses
 
-	def initialize(player_name)
+	def initialize(player_name, secret_number)
 		@player_name=Person.new(player_name)
 		@secret_number=SecretNumber.generate
 	end
@@ -39,7 +39,6 @@ class Game
 		end
 	end
 end
-_
 
 #=================================
 # 	attr_accessor :name, :secret_number

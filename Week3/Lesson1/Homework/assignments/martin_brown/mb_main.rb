@@ -61,4 +61,6 @@ def Start(name)
 end
 # put code here to create a new game, and start it
 
-game=Game.new
+def new_game (game)
+	game=Game.new
+end
