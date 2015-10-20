@@ -8,6 +8,7 @@
 # # These are 3 hashes that have the same fields and share a similar behavior
 =======
 # How to create objects and the benefits of them
+#
 # ==============================================
 # Let's focus on how to create new objects and why.
 #
