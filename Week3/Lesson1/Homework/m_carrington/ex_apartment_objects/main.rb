@@ -93,6 +93,7 @@ else
 end
 
 ## FEEDBACK
-# This works perfectly. The only thing you're missing
-# is a to_s method on the Apartment class so you can output
-# its internal state as a string. Otherwise, perfectly done.
+# Good work. The only issue is that you don't have a
+# view_apartments method in the Building class. That
+# causes an error at the end when you choose to view
+# apartments. Otherwise it's correct and working.

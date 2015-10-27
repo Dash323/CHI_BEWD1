@@ -7,9 +7,9 @@
 # => We've also provided a png file of the terminal output from the completed version.
 # => Hint: Think before you code. Annotate code and comment out sections as you test different sections
 
-require_relative 'lib/building'
-require_relative 'lib/apartment'
-require_relative 'lib/person'
+require_relative 'lib/michael_halgas_building.rb'
+require_relative 'lib/michael_halgas_apartment.rb'
+require_relative 'lib/michael_halgas_person.rb'
 
 ## First, define our methods
 
@@ -72,6 +72,7 @@ apt_count = gets.to_i
 
   puts "Is unit #{apartment.name} rented? (y)es (n)o"
   unit_rented = gets.strip
+  apartment.unit_rented = unit_rented
 
   if unit_rented == "y"
     apartment.renter = create_renter
@@ -93,6 +94,5 @@ else
 end
 
 ## FEEDBACK
-# This works perfectly. The only thing you're missing
-# is a to_s method on the Apartment class so you can output
-# its internal state as a string. Otherwise, perfectly done.
+# Excellent work. You're the second person to
+# get this 100% perfect with not even a tiny mistake.

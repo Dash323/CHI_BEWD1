@@ -57,6 +57,7 @@ end
 
 # Now call methods to run the program
 
+
 puts "******************Welcome to Ruby Building Manager****************** \n \n \n"
 
 building = create_building
@@ -93,6 +94,4 @@ else
 end
 
 ## FEEDBACK
-# This works perfectly. The only thing you're missing
-# is a to_s method on the Apartment class so you can output
-# its internal state as a string. Otherwise, perfectly done.
+# Well done. 100% working and correct. Couldn't have done it better myself.
