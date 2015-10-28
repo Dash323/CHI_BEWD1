@@ -8,6 +8,10 @@
 class Employee :
 =======
 class Employee
+<<<<<<< HEAD
+
+
+=======
   attr_accessor :first_name, :last_name
 >>>>>>> c4c394ebb4822949e1ba52ff9d3b4821068740fc
 
@@ -19,11 +23,16 @@ class Employee
   def full_name
     "#{self.first_name} #{self.last_name}"
   end
+>>>>>>> 92f0683b04bbdad79cd7d3d8953c2880cccbb89d
 end
 
 # A manager is contactable by email,
 # and wants their title as part of their full name display
 class Manager < Employee
+<<<<<<< HEAD
+
+
+=======
   attr_accessor :title, :email
 
   def initialize(fname, lname, title, email)
@@ -39,11 +48,17 @@ class Manager < Employee
   def full_name
     "#{self.first_name} #{self.last_name} | #{self.title}"
   end
+>>>>>>> 92f0683b04bbdad79cd7d3d8953c2880cccbb89d
 end
 
 # A marketer can be contacted via twitter
 # but is fine with the default name display
 class Marketer < Employee
+<<<<<<< HEAD
+
+
+end
+=======
   attr_accessor :twitter
 
   def initialize(fname, lname, twitter)
@@ -66,3 +81,4 @@ puts jan.contact
 
 joe = Employee.new("Joe", "Emplanado")
 puts joe.full_name
+>>>>>>> 92f0683b04bbdad79cd7d3d8953c2880cccbb89d

@@ -28,11 +28,11 @@
 #  pepe[:course] = "Math"
 #  pepe[:grade] = "C"
 # #
-#  edward = {}
-#  edward[:name] = "Edward Ellis"
-#  edward[:major] = "Math"
-#  edward[:course] = "Math"
-#  edward[:grade] = "D"
+# edward = {}
+# edward[:name] = "Edward Ellis"
+# edward[:major] = "Math"
+# edward[:course] = "Math"
+# edward[:grade] = "D"
 # #
 # def grade_status(student)
 #   if student[:grade] == "F"
@@ -67,6 +67,10 @@
 #   attr_accessor :name, :major, :course, :grade
 #  end
 # #this is a class attr_accessor will help you access different attributes to the class
+
+# class Student
+#   attr_accessor :name, :major, :course, :grade
+# end
 
 # def grade_status(student)
 #   if student.grade == "F"
@@ -105,6 +109,7 @@
 # puts "#{edward.name} has #{grade_status(edward)} #{edward.course}"
 
 
+<<<<<<< HEAD
 # #####################################################################################################
 # #####################################################################################################
 # #####################################################################################################
@@ -112,6 +117,18 @@
 # #####################################################################################################
 # # How about adding the grade_status method to our class?
 # # What's up with the `attr_accessor`? http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby
+=======
+#####################################################################################################
+#####################################################################################################
+#####################################################################################################
+#####################################################################################################
+#####################################################################################################
+# How about adding the grade_status method to our class?
+# What's up with the `attr_accessor`? http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby
+
+# class Student
+#   attr_accessor :name, :major, :course, :grade
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
 
 # class Student
 #    attr_accessor :name, :major, :course, :grade
@@ -146,10 +163,13 @@
 #  edward.grade = "D"
 
 
+<<<<<<< HEAD
 #  puts "#{jimmy.name} has #{jimmy.grade_status} #{jimmy.course}"
 #  puts "#{pepe.name} has #{pepe.grade_status} #{pepe.course}"
 #  puts "#{edward.name} has #{edward.grade_status} #{edward.course}"
 
+=======
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
 #####################################################################################################
 #####################################################################################################
 #####################################################################################################
@@ -161,6 +181,7 @@
 class Student
   attr_accessor :name, :major, :course, :grade
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 def initialize(name, major, course, grade)
 	@name=name 
@@ -189,6 +210,16 @@ pepe = Student.new("Pepe Phaenagrotis", "Music", "Math", "C")
 edward = Student.new("Edward Ellis", "Math", "Math", "C")
 
 =======
+=======
+ def initialize(name, major, course, grade)
+ 	@name = name
+ 	@major = major
+ 	@course = course
+ 	@grade = grade
+ end
+
+
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
   def initialize(name, major, course, grade)
     @name = name
     @major = major
@@ -220,3 +251,4 @@ edward = Student.new("Edward Ellis", "Math", "Math", "C")
 puts jimmy
 puts pepe
 puts edward
+
