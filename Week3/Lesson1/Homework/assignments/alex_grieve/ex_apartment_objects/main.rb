@@ -91,3 +91,11 @@ if response == 'v'
 else
   puts "Thanks for using Ruby Building Manager"
 end
+<<<<<<< HEAD
+=======
+
+## FEEDBACK
+# This works perfectly. The only thing you're missing
+# is a to_s method on the Apartment class so you can output
+# its internal state as a string. Otherwise, perfectly done.
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367

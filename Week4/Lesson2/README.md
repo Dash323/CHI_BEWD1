@@ -39,6 +39,10 @@ To generate a controller with a matching view file you use the `rails generate` 
 
 __Generating a new controller (options for action names in brackets):__
 
-`rails generate Controller NameHere [index show new edit create update destroy]` (You may specify one, many, or all of those actions at once separated by a space).
+<<<<<<< HEAD
+`rails generate controller NameHere [index show new edit create update destroy]` (You may specify one, many, or all of those actions at once separated by a space).
+=======
+`rails generate controller NameHere [index show new edit create update destroy]` (You may specify one, many, or all of those actions at once separated by a space).
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
 
 
