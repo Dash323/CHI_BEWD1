@@ -1,6 +1,6 @@
 # Rewsly
 
-Push your Resly code to a GitHub repository and then add the URL in a file in this folder.
+Push your Rewsly code to a GitHub repository and then add the URL in a file in this folder.
 
 # Final project
 
