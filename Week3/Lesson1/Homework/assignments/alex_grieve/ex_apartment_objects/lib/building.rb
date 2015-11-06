@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Building Class
 class Building
 
 end
 =======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # Building.new(building_name, building_address)
 
 class Building
@@ -22,4 +25,7 @@ class Building
 	end 
 
 end
+<<<<<<< HEAD
 >>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680

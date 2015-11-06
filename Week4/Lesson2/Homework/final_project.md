@@ -45,7 +45,10 @@ Your instructor and T.As will provide feedback on how well you execute best prac
 ##GRADING
 A project is considered satisfactory if it meets all core requirements. Anything extra is encouraged. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 
 ## Project Ideas
 
@@ -80,4 +83,8 @@ These are projects others have done in paste courses
 * [Geek Therapy](http://geektherapy.io/welcome)
 
 * [Shot Spot App](https://github.com/gortega56/Shot_Spot_App)
+<<<<<<< HEAD
 >>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680

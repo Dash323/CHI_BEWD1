@@ -2,12 +2,15 @@ require 'lib/person'
 require 'lib/secret_number'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Game
 # this class will be complex
 # we need to write logic to initialize a new game, and run the game loop
 # we'll want to write a few separate methods for unique tasks so that our
 # code is structured properly
 =======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # Game class contains the following methods:
 #   Initialize: 
 #       - Initialize and set defaults 
@@ -173,5 +176,8 @@ class Game
 		puts "\nThanks for playing #{self.player_name}!\n"
 		puts "You finished with #{player_record["Wins"]} wins and #{player_record["Losses"]} losses"
 	end
+<<<<<<< HEAD
 >>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 end

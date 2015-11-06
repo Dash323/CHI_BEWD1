@@ -32,8 +32,15 @@ class Story
   end
 end
 
+<<<<<<< HEAD
+story = Story.new 
+story.upvote! 
+
+photo = Photo.new 
+=======
 story = Story.new
 story.upvote!
 
 photo = Photo.new
+>>>>>>> 92f0683b04bbdad79cd7d3d8953c2880cccbb89d
 photo.downvote!

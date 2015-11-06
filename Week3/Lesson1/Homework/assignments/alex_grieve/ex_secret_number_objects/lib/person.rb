@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Person
 # this class will likely be simple, and just remember its name
 =======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # Person class contains the following methods:
 #   Initialize: 
 #       - Initialize and set defaults 
@@ -20,5 +23,8 @@ class Person
 	def to_s
 		"#{self.name}"
 	end
+<<<<<<< HEAD
 >>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 end
