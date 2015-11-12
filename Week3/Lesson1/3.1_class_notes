@@ -1,0 +1,27 @@
+3.1 Class Notes-CLASSES and OBJECTS
+
+Pros of Hashes:
+	Easy to access values (name and key vs index)
+Cons of Hahses:
+	no defults
+	no defines of methods can be defined inside of a hash
+	can't inherit properties or extend objects- car example
+Can do with classes and objects
+
+Classes are the blueprint from which Objects are created from
+what is an object?
+	the class that everything inherits from. everything in ruby is an object. and object holds a definition from every part of your code. 
+
+attributes in classes are like keys in hashes, set the value and get the value back
+
+you can add methods to a class
+
+
+
+
+Creating links between classes
+
+require (method)- have a ruby gem and pass it a name, looks in standard library that matches name- if cant find will get error
+
+require_relative- looking for it in the same directory
+	file system, type a path to where it is and it will find it
