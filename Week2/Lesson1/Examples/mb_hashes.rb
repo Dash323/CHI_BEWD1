@@ -35,23 +35,43 @@ forecast = [
   {
     date: 'Thursday',
     temp: 65,
-    desc: 'Sunny as FUCK!',
+    desc: 'Sunny',
     moon_phase: 'Full Moon'
   },
   {
     date: 'Friday',
     temp: 71,
-    desc: 'Mostly FUCKING CRAZY cloudy',
+    desc: 'Mostly cloudy',
     moon_phase: 'Waning Crescent'
   }
 ]
-# this is the short way
-forecast.each do |weather|
-  weather.each do|x, y|
-  puts "#{x} is #{y}"
-  puts "---------------------------------------------------------"
+
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+forecast.each do |forecast|
+  forecast.each do|key, value|
+  puts "#{key} is #{value}"
 end 
 end
+=======
+puts forecast[-1][:date] #=> 'Friday'
 
-#this is the long way
-#forecast.each {|weather| put "the temp on #{weather[:date]}"}
+
+
+=======
+>>>>>>> 965c7ffafe726458f15f8c197a802d75a21a7098
+
+# forecast.each {|weather| puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}\nMoon phase: #{weather[:moon_phase]}" }
+
+# forecast.each do |weather|
+#   puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}"
+#   puts "Moon phase: #{weather[:moon_phase]}"
+#   puts "========================="
+# end
+<<<<<<< HEAD
+>>>>>>> e70a97ef2d8c05aa11f746219a9c56bf8a33295d
+=======
+
+>>>>>>> 965c7ffafe726458f15f8c197a802d75a21a7098
