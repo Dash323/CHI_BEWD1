@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+# # How to create objects and the benefits of them
+# # ==============================================
+# # Let's focus on how to create new objects and why.
+# #
+# # Why use Objects?
+# # ----------------
+# # These are 3 hashes that have the same fields and share a similar behavior
+=======
 # How to create objects and the benefits of them
 #
 # ==============================================
@@ -6,6 +15,7 @@
 # Why use Objects?
 # ----------------
 # These are 3 hashes that have the same fields and share a similar behavior
+>>>>>>> 481521fde066e74822b9af9081b575ef96939b3c
 #  jimmy = {}
 #  jimmy[:name] = "Jimmy Mazzy"
 #  jimmy[:major] = "Math"
@@ -40,36 +50,40 @@
 # puts "#{edward[:name]} has #{grade_status(edward)} #{edward[:course]}"
 
 
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
 
-##
-# Creating a new class (object)
-# -----------------------------
-# # How about using a class
-# - Now each student is an instance of a Student class
-# - This means it has built in attributes and functionality
-###
+# ##
+# # Creating a new class (object)
+# # -----------------------------
+# # # How about using a class
+# # - Now each student is an instance of a Student class
+# # - This means it has built in attributes and functionality
+# ###
 # class Student
-#  attr_accessor :name, :major, :course, :grade
-# end
+#   attr_accessor :name, :major, :course, :grade
+#  end
+# #this is a class attr_accessor will help you access different attributes to the class
 
 # class Student
 #   attr_accessor :name, :major, :course, :grade
 # end
 
 # def grade_status(student)
-#  if student.grade == "F"
-#    "failed"
-#  elsif student.major == student.course && student.grade >= "C"
-#    "failed"
-#  else
-#    "passed"
-#  end
+#   if student.grade == "F"
+#   	# insted of student [:grade] for arrays- used like methods
+#     "failed"
+#   elsif student.major == student.course && student.grade >= "C"
+#     "failed"
+#   else
+#     "passed"
+#   end
 # end
+
+# #creating a new instance of a student class. defineing properties on a class instend of hash syntax use class syntAX
 
 # jimmy = Student.new
 # jimmy.name = "Jimmy Mazzy"
@@ -95,6 +109,15 @@
 # puts "#{edward.name} has #{grade_status(edward)} #{edward.course}"
 
 
+<<<<<<< HEAD
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# #####################################################################################################
+# # How about adding the grade_status method to our class?
+# # What's up with the `attr_accessor`? http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby
+=======
 #####################################################################################################
 #####################################################################################################
 #####################################################################################################
@@ -105,41 +128,48 @@
 
 # class Student
 #   attr_accessor :name, :major, :course, :grade
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
 
-#   def grade_status
-#     if @grade == "F"
-#       "failed"
-#     elsif ["D", "E"].include?(@grade) && @major == @course
-#       "failed"
-#     else
-#       "passed"
-#     end
+# class Student
+#    attr_accessor :name, :major, :course, :grade
+
+#    def grade_status
+#     if @grade == "F" #here we use @ sign instrad of .method. @ makes it a class level variable. if grades 
+#        "failed"
+#      elsif ["D", "E"].include?(@grade) && @major == @course
+#        "failed"
+#      else
+#        "passed"
+#      end
+#    end
 #   end
-# end
 
-# jimmy = Student.new
-# jimmy.name = "Jimmy Mazzy"
-# jimmy.major = "Math"
-# jimmy.course = "Math"
-# jimmy.grade = "A"
+#  jimmy = Student.new
+#  jimmy.name = "Jimmy Mazzy"
+#  jimmy.major = "Math"
+#  jimmy.course = "Math"
+#  jimmy.grade = "A"
 
-# pepe = Student.new
-# pepe.name = "Pepe Phaenagrotis"
-# pepe.major = "Music"
-# pepe.course = "Math"
-# pepe.grade = "C"
+#  pepe = Student.new
+#  pepe.name = "Pepe Phaenagrotis"
+#  pepe.major = "Music"
+#  pepe.course = "Math"
+#  pepe.grade = "C"
 
-# edward = Student.new
-# edward.name = "Edward Ellis"
-# edward.major = "Math"
-# edward.course = "Math"
-# edward.grade = "D"
+#  edward = Student.new
+#  edward.name = "Edward Ellis"
+#  edward.major = "Math"
+#  edward.course = "Math"
+#  edward.grade = "D"
 
 
-# puts "#{jimmy.name} has #{jimmy.grade_status} #{jimmy.course}"
-# puts "#{pepe.name} has #{pepe.grade_status} #{pepe.course}"
-# puts "#{edward.name} has #{edward.grade_status} #{edward.course}"
+<<<<<<< HEAD
+#  puts "#{jimmy.name} has #{jimmy.grade_status} #{jimmy.course}"
+#  puts "#{pepe.name} has #{pepe.grade_status} #{pepe.course}"
+#  puts "#{edward.name} has #{edward.grade_status} #{edward.course}"
 
+=======
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
 #####################################################################################################
 #####################################################################################################
 #####################################################################################################
@@ -151,6 +181,36 @@
 class Student
   attr_accessor :name, :major, :course, :grade
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+def initialize(name, major, course, grade)
+	@name=name 
+	@major= major
+	@course= course
+	@grade= grade
+end
+
+  def grade_status
+    if @grade == "F"
+      "failed"
+    elsif ["D", "E"].include?(@grade) && @major == @course
+      "failed"
+    else
+      "passed"
+    end
+   end
+end
+
+def to_s
+	"#{@name} is a #{@major} in #{@course} class with a grade of #{@grade}. they have #{self.grade_status}"
+end
+#called a method inside of a class (preface with self- so that ruby knows this istance of class) . self method inside of another method, make sure to tell that this intes of the status method
+jimmy = Student.new("Jimmy Mazzy", "Math", "Math", "A")
+pepe = Student.new("Pepe Phaenagrotis", "Music", "Math", "C")
+edward = Student.new("Edward Ellis", "Math", "Math", "C")
+
+=======
+=======
  def initialize(name, major, course, grade)
  	@name = name
  	@major = major
@@ -159,6 +219,7 @@ class Student
  end
 
 
+>>>>>>> 49b9622186cad69b48774bee53569c0142125560
   def initialize(name, major, course, grade)
     @name = name
     @major = major
@@ -186,6 +247,7 @@ jimmy = Student.new("Jimmy Mazzy", "Math", "Math", "A")
 pepe = Student.new("Pepe Phaenagrotis", "Music", "Math", "C")
 edward = Student.new("Edward Ellis", "Math", "Math", "C")
 
+>>>>>>> 481521fde066e74822b9af9081b575ef96939b3c
 puts jimmy
 puts pepe
 puts edward

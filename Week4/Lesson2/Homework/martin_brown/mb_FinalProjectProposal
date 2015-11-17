@@ -1,0 +1,18 @@
+BEWD1 Final Project Proposal:
+
+For my final project i will develope a tool that will help ComEd customers estimate there annual savings if they were to enroll in ComEds Dynamic energy pricing program, also know as "Real Time Pricing" (RTP)
+
+ComEd's RTP program offers residents the ability to pay for energy based on hourly market prices, rather than flat rates. This type of program has only been recently been made avaliable to residential customers becasue of the installation of "smart meters", which are a replacement for analog meters. with the introduction of this new technology, energy usage information is now avaliable on 15 min intervals, compared to the monthly intervals provided by analoge meters. The flow of the program would be as follows:
+
+	-User creates an account or logs in.
+	- Users uploads a CSV file of there energy data (this energy data is downloaded using the "Green Button" feature on individuals account profiles of ComEd's website). The CSV contains 1 collumn with date and time, and the other with there interval usage-Only ComEd customers with smart meters will be able to access this data
+	-Application calculates the cost of usage using static pricing rates 
+	-application calculate the cost of usage using dynamic pricing rates (RTP)
+	-Application subtracts dynamic cost from Static cost. If negative, that means the user would save if they signed up for the RTP program. 
+	-User gets notification of weather they are a good applicant for the program.
+
+	info on RTP-https://hourlypricing.comed.com/live-prices/
+
+	infro on smart meters and smart grid https://www.comed.com/technology/smart-meter-smart-grid/pages/smart-meter.aspx
+
+	

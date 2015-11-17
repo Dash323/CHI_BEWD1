@@ -4,12 +4,16 @@
 # This is the base class the others will inherit from
 # Employees have a first name attr, last name attr, and
 # a full name method.
+<<<<<<< HEAD
+class Employee :
+=======
 class Employee
 <<<<<<< HEAD
 
 
 =======
   attr_accessor :first_name, :last_name
+>>>>>>> c4c394ebb4822949e1ba52ff9d3b4821068740fc
 
   def initialize(fname, lname)
     @first_name = fname
