@@ -1,0 +1,61 @@
+4.1 Notes:
+
+Rails- 
+	frameowrk for building websites 
+
+	Request responce cycle-
+		How does the internet work?
+			-you make request to DNS, then url address sent back to you
+			-request sent to server
+				-get to the proxy- responsile for handling all requests from outside. proxy can send to any other application
+			- proxy sends request over to rails- 
+			-rails talks to database
+
+			comp-proxy-rails-database-rails-proxy-comp
+
+
+
+to start rails program 
+	rails s
+	we will be working with controlers, models, and views
+		controler- a class that is responsible for the logic of a route (url or end point)
+			get
+			post- sending out data to a server- in our case we have book at, book is a responce
+				=>GET /books  (this would give you a list of books, dont change anything )
+				=>Post /books (this would creaste a new book, add something)
+				=>patch /books/:id (when you want to change the contects of an existing resource, this would change the list)
+				=>delete /books/:id (delted the book of the id you pasted in)
+#Book because its your class, and singual because models are always sigular
+	In TERMINAL, type 
+	
+	rails generate scafold Book title:string author:string summery:string
+
+	[Press enter]
+
+	rake db:migrate
+
+core functionality inside of app folder
+	public folder is for statis assest- pictures, plain text, stuff that should change
+
+	app folder (all /app)
+		css, javescript, and images used in templates
+		controlers- classes that take in data you send
+		helpers- ex)turn seconds into helpful units on twitter (posted 2 days ago)
+		mailers 
+		views- html templates
+		views/layout- define what is the same on all pages and inbetween you put the regular view
+		models- define your data and resources- ex a book
+making an app
+
+$rails new my_app_name
+$ls
+$cd my_app_name
+
+create tables
+$rake db:migrate =>run when ever you make a change to your database.
+
+starting a server
+
+$rails s
+
+add static files

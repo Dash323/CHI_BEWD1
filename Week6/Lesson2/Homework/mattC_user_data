@@ -1,0 +1,3 @@
+User data for to-do list app
+
+My users data should have a user_id, email, user_name, password, and accumulated point information.

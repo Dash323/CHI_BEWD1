@@ -86,9 +86,26 @@ Write a list of data you may need to store about a user in your final project.
 
 #### Lesson 1
 
-Due. Nov. 10th
+Due Nov. 10th
 
 Push your Rewsly code to a GitHub repository and then add the URL in a file in this folder.
 
 - List all models needed for your final project
 - Draw a diagram of any model associations
+
+#### Lesson 2
+
+Due Nov. 10th
+
+- At least 5 user stories for your final project
+- Diagram of your database schema for your final project
+
+The database shema will coincide with what your model attributes are as well. Sometimes you might have database tables that aren't directly tied to a model (like with a "through" table) but in most cases all your models will have corresponding tables.
+
+### Week 8
+
+#### Lesson 2
+
+Due Nov. 17th
+
+Put a link to your final project in the `final_project` folder.

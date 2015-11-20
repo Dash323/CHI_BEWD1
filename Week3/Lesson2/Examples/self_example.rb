@@ -27,6 +27,26 @@ paper.add_story(story)
 p paper.stories #=> ["This random event happened on day 20 of this month."]
 =======
 
+<<<<<<< HEAD
+
+story = NewsPaper.generate_random_story #=> "This random event happened on day 20 of this month." 
+
+paper = NewsPaper.new 
+5.times do
+  paper.add_story(NewsPaper.generate_random_story) 
+end 
+
+paper2=NewsPaper.new
+5.times do
+  paper.and_story(NewsPaper.generate_random_story)
+end
+
+paper2.stories.each do |story|
+  puts story
+end 
+
+puts "\n+++++++++++++++++++++++++++++++++++++\n"
+=======
 #story = NewsPaper.generate_random_story #=> "This random event happened on day 20 of this month." 
 
 paper = NewsPaper.new 
@@ -47,6 +67,7 @@ puts "\n========================\n"
 paper2.stories.each do |story|
   puts story
 end
+>>>>>>> c4c394ebb4822949e1ba52ff9d3b4821068740fc
 
 # p paper.stories #=> ["This random event happened on day 20 of this month."]
 # puts "================="
