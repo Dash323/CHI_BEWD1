@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+class SecretNumber
+# this class will generate our secret number for us
+=======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # SecretNumber class contains the following methods:
 #   Initialize: 
 #       - Initialize and set defaults 
@@ -40,4 +47,8 @@ class SecretNumber
 	def to_s
 		return puts @random_number
 	end
+<<<<<<< HEAD
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 end
