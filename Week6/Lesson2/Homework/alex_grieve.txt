@@ -1,0 +1,10 @@
+I am creating an Auction App like eBay. My users would need the following:
+
+Email - string
+Password - string
+First_name - string
+Last_name - string
+# of Products Sold - int
+# of Products bought - int
+Cash on hand - decimal 
+Seller rating - decimal
