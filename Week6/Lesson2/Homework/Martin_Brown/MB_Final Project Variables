@@ -1,0 +1,15 @@
+Martin Brown. HomeWork Week 6 
+
+List of Variables for final project:
+-User name
+-User Password
+-User Energy data
+	-Time
+	-Date 
+	-Usage (kwh)
+-Energy Rates
+	-Fixed Rate (around .07$)
+	-1 hour interval rate
+		-Time 
+		-Date
+		-Rate ($/kwh)
