@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 ###############################################################################
 #
 # Introduction to Ruby on Rails
@@ -8,6 +12,23 @@
 # is to practice your knowledge of object oriented programming.
 #
 ###############################################################################
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+# Lets create an Object Oriented version of our Secret Number Game.
+#
+# Your updated game should have 4 classes (Main, SecretNumber, Game and Player)
+#
+# Below is a description of each class and some guidelines for each.
+#
+# Main
+#	The main class is where the game begins. This class should tell the player who made it.
+#	Ask the player for their name and instantiate the Game class.
+#
+<<<<<<< HEAD
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # SecretNumber
 #   This class should initiate an array of numbers that range between 1 - 10.
 #   Use a method from the array class to select a random element from that array. This random number will be the secret number.
@@ -25,6 +46,11 @@
 # 		If the user guesses incorrectly let them know if they were too high or too low.
 #		Monitor how many guesses the player has before the game is over.
 #
+<<<<<<< HEAD
+=======
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 # In creating your game, make sure it has arrays, hashes and all functionality is wrapped in methods.
 # Add helpful comments to your code to document what each section does.
 #
@@ -33,6 +59,16 @@
 $:.unshift (File.dirname(__FILE__))
 require 'lib/game'
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+# put code here print a welcome message for your user
+
+# put code here ask the user for their name, and save it
+
+# put code here to create a new game, and start it
+=======
+=======
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
 class Main
 
 
@@ -67,4 +103,8 @@ main.play
 # obviously get this stuff and I'm guessing you're doing
 # a lot of Googling for how to do stuff which is a great
 # habit to get into.
+<<<<<<< HEAD
+>>>>>>> a12757d711ae0cd7f1e3955ca1486f0d18f94367
+=======
 
+>>>>>>> dff528c7e24a3107a57c296562bcc100ea8da680
