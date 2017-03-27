@@ -1,0 +1,7 @@
+Alex Grieve's user stories for an Auction Application
+
+1. A user wants to view his/her user profile page
+2. A user wants to list a product for sale
+3. A user wants to view a product for sale
+4. A user wants to bid on a product for sale
+5. A user wants to review another seller

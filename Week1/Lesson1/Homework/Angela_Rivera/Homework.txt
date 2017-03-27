@@ -1,0 +1,4 @@
+I learned, James is smart. And using a LS tree makes it easier to visualize directories. 
+I also learned how to set up a git remote so that I could pull down from the git repository for the class. 
+I created a remote called instructor and that links back to the instructors git repository, so that I can pull the contents down once its changed. 
+This also allows for me to easily create pull requests from my fork (this remote is called origin). 

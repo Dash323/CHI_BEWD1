@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+# INSTRUCTIONS:
+# =============
+# 1. Copy the contents of this file into
+#    a new file in a folder named after yourself
+#    within this week's Homework folder.
+# 2. Using the rest-client gem, request the latest (new)
+#    stories from Mashable (http://mashable.com/stories.json)
+#    and then output each story's title, author, and content
+#    in the terminal. For better readability, output a line
+#    of dashes between each story like this: ---------------
+# TIP: See the rest-client docs if you're stuck: https://github.com/rest-client/rest-client
+
+# Make sure you have installed the rest-client and JSON
+# gems with:
+#
+# gem install rest-client
+# gem install json
+
+require 'rest-client'
+require 'json'
+
+# Get JSON blob
+response = RestClient.get 'http://mashable.com/stories.json'
+
+# Turn Ruby into a hash
+parsed_response = JSON.parse(response)
+
+# Look inside the new key - returns an array of hashes
+new_stories = parsed_response['new']
+
+new_stories.each do |story|
+	puts "Title: #{story['title']}"
+	puts "Author: #{story['author']}"
+	# Story is contained in a hash
+	puts "Story: #{story['content']['plain']}"
+	puts "---------------------------------------------"
+end
+
+# 100% right. This might have seemed too easy since
+# I pretty much showed exactly how to do it as an example
+# but you'd be surprised. There's a lot you can get out
+# of going through the motions and typing things out
+# yourself.
